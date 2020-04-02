@@ -6,7 +6,7 @@ inputs:
     required: true
     default: 'World'
 outputs:
-    time: '${ { steps.hello.outputs.time }}'
+    time: #id time
     description: 'The time we greeted you'
 runs:
   using: 'node12'
